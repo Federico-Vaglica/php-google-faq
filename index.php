@@ -63,7 +63,22 @@
             <?php }?>
        </div>
    </main>
-
+   <footer>
+       <div class='links container'>
+            <select name="lang" id="">
+                    <option value="ita">Italiano</option>
+            </select>
+            
+            <ul>
+                <li>Google</li>
+                <li>Tutto su Google</li>
+                <li>Privacy</li>
+                <li>Termini</li> 
+            </ul>
+            
+       </div>
+      
+   </footer>
     
 
 </body>
