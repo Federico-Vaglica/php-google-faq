@@ -1,0 +1,88 @@
+
+/* General Rules */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul li {
+    list-style-type: none;
+    color: #5f6368;
+    padding: 6px 10px 6px 0px;
+    margin-right: 2px;
+    font-size: 10px;
+}
+
+ul li:hover {
+    cursor: pointer;
+}
+
+h3 {
+    color: #3c4043;
+    font-family: 'Google Sans',sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    line-height: 32px;
+    margin: 0;
+    padding: 64px 0 0 0;
+}
+
+p{
+    letter-spacing: .2px;
+    line-height: 20px;
+    padding-top: 20px;
+    font-size: 12px;
+}
+
+
+
+/* End */
+/* Starting style banner */
+.selected {
+    color: #3367d6;;
+    border-bottom: 3px solid #3367d6;
+}
+
+.banner {
+    position: sticky;
+    border-bottom: 1px solid rgba(151,151,151,0.5);
+    padding: 15px 24px 0 24px;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo > img {
+    width: 52px;
+    height: 16px;
+}
+
+.logo > h4 {
+    font-size: 13px;
+    padding: 0px 10px;
+    font-weight: 300;
+    color: darkgray;
+}
+
+.navbar  ul {
+    display: flex;
+
+}
+
+/* End style banner */
+
+/* Start body Style*/
+
+.container {
+    max-width: 978px;
+    margin: 0 auto;
+    padding: 0 130px;
+}
+
+/*End body style*/
